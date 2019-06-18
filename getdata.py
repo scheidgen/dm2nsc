@@ -4,7 +4,7 @@ from secret import USERNAME, PASSWORD, NS_URL, NS_SECRET
 # this is the enteredBy field saved to Nightscout
 NS_AUTHOR = "Diabetes-M (dm2nsc)"
 
-DO_MYSUGR_PROCESSING = (USERNAME == 'jwoglom')
+DO_MYSUGR_PROCESSING = (USERNAME == 'lisascheidgen')
 
 def get_login():
 	return requests.post('https://analytics.diabetes-m.com/api/v1/user/authentication/login', json={
